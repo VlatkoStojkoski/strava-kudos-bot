@@ -22,21 +22,21 @@ A step by step series of examples that tell you how to get a development env run
 
 #### Install python with needed packages
 
-Install python 3 from [python.org](https://www.python.org/)
+1. Install python 3 from [python.org](https://www.python.org/)
 
-Next, install selenium, so that our script can do browser automation
+1. Next, install selenium, so that our script can do browser automation
 
 ```
 pip install selenium
 ```
 
-And decouple, so that we can read sensitive data (that for obvious I haven't uploaded to the internet) from a `.env` file
+1. And decouple, so that we can read sensitive data (that for obvious I haven't uploaded to the internet) from a `.env` file
 
 ```
 pip install python-decouple
 ```
 
-Download the google chrome driver from [chromedriver download](https://chromedriver.chromium.org/downloads)
+1. Download the google chrome driver from [chromedriver download](https://chromedriver.chromium.org/downloads)
 
 #### Env variables
 
