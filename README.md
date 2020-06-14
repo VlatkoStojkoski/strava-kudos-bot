@@ -26,15 +26,15 @@ A step by step series of examples that tell you how to get a development env run
 
 2. Next, install selenium, so that our script can do browser automation
 
-```
-pip install selenium
-```
+   ```
+   pip install selenium
+   ```
 
 3. And decouple, so that we can read sensitive data (that for obvious I haven't uploaded to the internet) from a `.env` file
 
-```
-pip install python-decouple
-```
+   ```
+   pip install python-decouple
+   ```
 
 4. Download the google chrome driver from [chromedriver download](https://chromedriver.chromium.org/downloads)
 
