@@ -36,6 +36,8 @@ And decouple, so that we can read sensitive data (that for obvious I haven't upl
 pip install python-decouple
 ```
 
+Download the google chrome driver from [chromedriver download](https://chromedriver.chromium.org/downloads)
+
 #### Env variables
 
 To login to strava make a `.env` file in which you'll store your email and password.
