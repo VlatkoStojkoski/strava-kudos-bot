@@ -22,8 +22,9 @@ password.send_keys(config("PASSWORD"))
 sleep(1)
 
 password.submit()
-sleep(5)
 
 while True:
+    sleep(5)
     driver.execute_script("document.querySelectorAll('.btn-kudo[title=\"Give Kudos\"]').forEach(el=>el.click())")
     sleep(1000)
+    driver.refresh()
